@@ -1,6 +1,6 @@
 import tkinter as tk
 
-# Buton tıklama fonksiyonu
+
 def tus_tikla(tus):
     if tus == "=":
         try:
@@ -39,8 +39,8 @@ for tus in butonlar:
         sutun = 0
         satir += 1
 
-# Temizleme butonu
 tk.Button(pencere, text="C", width=5, height=2, font=("Arial", 14),
           command=lambda: tus_tikla("C")).grid(row=satir, column=0, padx=2, pady=2)
+
 
 pencere.mainloop()
