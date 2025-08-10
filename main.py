@@ -15,15 +15,13 @@ def tus_tikla(tus):
     else:
         ekran.insert(tk.END, tus)
 
-# Ana pencere
 pencere = tk.Tk()
 pencere.title("Hesap Makinesi")
 
-# Ekran (Entry)
 ekran = tk.Entry(pencere, width=20, font=("Arial", 18), borderwidth=2, relief="solid", justify="right")
 ekran.grid(row=0, column=0, columnspan=4, padx=5, pady=5)
 
-# Butonlar
+
 butonlar = [
     "7", "8", "9", "/",
     "4", "5", "6", "*",
